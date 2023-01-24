@@ -60,7 +60,7 @@ def secret_page(username=None, password=None):
     <h1> Welcome, {username}! </h1>
 
     <p> <small> Pst! I know your password is
-        <span class="spoilers"> {password}</span>.
+        <span class="spoilers"> I am not telling ya</span>.
         </small>
     </p>
     """.format(username=escape(username.capitalize()),
